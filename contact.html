@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact the TravelBloom travel team.">
+    <title>Contact us | TravelBloom</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header solid-header">
+      <nav class="navbar" aria-label="Main navigation">
+        <a class="brand" href="index.html" aria-label="TravelBloom home"><span class="brand-mark" aria-hidden="true">✦</span><span>TravelBloom</span></a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navContent"><span class="sr-only">Toggle navigation</span><span></span><span></span><span></span></button>
+        <div class="nav-content" id="navContent">
+          <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About us</a>
+            <a class="active" href="contact.html" aria-current="page">Contact us</a>
+          </div>
+          <a class="button button-light button-small nav-cta" href="index.html#discover">Find a destination</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="contact-main">
+      <section class="contact-intro">
+        <p class="eyebrow">Let's plan something memorable</p>
+        <h1>Where do you want to go next?</h1>
+        <p>Tell us what kind of journey you have in mind. We’ll help point you in the right direction.</p>
+
+        <div class="contact-details">
+          <div><span>Email</span><a href="mailto:hello@travelbloom.example">hello@travelbloom.example</a></div>
+          <div><span>Office</span><p>Dubai, United Arab Emirates</p></div>
+          <div><span>Hours</span><p>Sunday–Thursday, 9:00–18:00</p></div>
+        </div>
+      </section>
+
+      <section class="contact-panel" aria-labelledby="formTitle">
+        <p class="form-step">Enquiry form · <span>01/01</span></p>
+        <h2 id="formTitle">Tell us about your trip.</h2>
+        <form id="contactForm">
+          <div class="field-row">
+            <div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" placeholder="Jane Smith" required></div>
+            <div class="field"><label for="email">Email address</label><input id="email" name="email" type="email" placeholder="jane@example.com" required></div>
+          </div>
+          <div class="field"><label for="interest">What are you interested in?</label><select id="interest" name="interest"><option value="">Choose an option</option><option>Country or city break</option><option>Beach escape</option><option>History and culture</option><option>Something else</option></select></div>
+          <div class="field"><label for="message">Tell us more</label><textarea id="message" name="message" rows="6" placeholder="Destination ideas, travel style, dates, or anything else..." required></textarea></div>
+          <button class="button button-primary submit-button" type="submit">Send enquiry <span aria-hidden="true">→</span></button>
+          <p class="form-status" id="formStatus" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer"><a class="brand footer-brand" href="index.html"><span class="brand-mark">✦</span> TravelBloom</a><p>Curated journeys for curious people.</p><p>© <span data-current-year></span> TravelBloom</p></footer>
+    <script src="travel_recommendation.js" defer></script>
+  </body>
+</html>

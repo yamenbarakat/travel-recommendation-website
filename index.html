@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="description"
+      content="TravelBloom helps you discover memorable destinations, beaches, and temples."
+    >
+    <title>TravelBloom | Find your next destination</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@700;800&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="home-page">
+    <header class="site-header">
+      <nav class="navbar" aria-label="Main navigation">
+        <a class="brand" href="index.html" aria-label="TravelBloom home">
+          <span class="brand-mark" aria-hidden="true">✦</span>
+          <span>TravelBloom</span>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navContent">
+          <span class="sr-only">Toggle navigation</span>
+          <span></span><span></span><span></span>
+        </button>
+
+        <div class="nav-content" id="navContent">
+          <div class="nav-links">
+            <a class="active" href="index.html" aria-current="page">Home</a>
+            <a href="about.html">About us</a>
+            <a href="contact.html">Contact us</a>
+          </div>
+
+          <form class="search-form" id="searchForm" role="search">
+            <label class="sr-only" for="searchInput">Search destinations</label>
+            <input
+              id="searchInput"
+              name="query"
+              type="search"
+              placeholder="Try Japan, beach, or temple"
+              autocomplete="off"
+            >
+            <button class="button button-primary button-small" type="submit">Search</button>
+            <button class="button button-ghost button-small" id="resetButton" type="button">Reset</button>
+          </form>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="heroTitle">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Curated travel inspiration</p>
+          <h1 id="heroTitle">Go where you feel <em>most alive.</em></h1>
+          <p class="hero-copy">
+            Discover vibrant cities, quiet shores, and remarkable places shaped by centuries of culture.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#discover">Explore destinations</a>
+            <a class="text-link" href="about.html">Meet our travel team <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+
+        <div class="hero-stat" aria-label="TravelBloom highlights">
+          <strong>12</strong>
+          <span>handpicked places<br>to start exploring</span>
+        </div>
+
+        <div class="social-links" aria-label="Social media links">
+          <a href="https://www.instagram.com" aria-label="Instagram">ig</a>
+          <a href="https://www.youtube.com" aria-label="YouTube">yt</a>
+          <a href="https://www.x.com" aria-label="X">x</a>
+        </div>
+      </section>
+
+      <section class="discover section" id="discover" aria-labelledby="discoverTitle">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow dark">Start exploring</p>
+            <h2 id="discoverTitle">Find a place worth remembering.</h2>
+          </div>
+          <p>Search by category, country, city, or anything that catches your interest.</p>
+        </div>
+
+        <div class="quick-searches" aria-label="Suggested searches">
+          <button type="button" data-query="beaches">Sunlit beaches</button>
+          <button type="button" data-query="temples">Historic temples</button>
+          <button type="button" data-query="Japan">Japan</button>
+          <button type="button" data-query="Brazil">Brazil</button>
+        </div>
+
+        <p class="search-message" id="searchMessage" aria-live="polite"></p>
+        <div class="recommendation-grid" id="recommendationResults"></div>
+
+        <div class="empty-state" id="emptyState">
+          <span aria-hidden="true">⌁</span>
+          <h3>Your next story starts with a search.</h3>
+          <p>Use the search bar above or select one of the suggestions.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="index.html"><span class="brand-mark">✦</span> TravelBloom</a>
+      <p>Curated journeys for curious people.</p>
+      <p>© <span data-current-year></span> TravelBloom</p>
+    </footer>
+
+    <script src="travel_recommendation.js" defer></script>
+  </body>
+</html>

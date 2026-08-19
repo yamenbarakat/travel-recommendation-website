@@ -1,0 +1,104 @@
+{
+  "countries": [
+    {
+      "id": 1,
+      "name": "Australia",
+      "cities": [
+        {
+          "name": "Sydney, Australia",
+          "imageUrl": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&w=1200&q=85",
+          "description": "A harbour city where iconic architecture, coastal walks, and laid-back neighbourhoods meet.",
+          "tags": ["city", "coast", "architecture"]
+        },
+        {
+          "name": "Melbourne, Australia",
+          "imageUrl": "https://images.unsplash.com/photo-1514395462725-fb4566210144?auto=format&fit=crop&w=1200&q=85",
+          "description": "Creative laneways, exceptional coffee, galleries, and a thriving food and music culture.",
+          "tags": ["city", "food", "culture"]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Japan",
+      "cities": [
+        {
+          "name": "Tokyo, Japan",
+          "imageUrl": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1200&q=85",
+          "description": "A kinetic capital of neon streets, quiet shrines, meticulous food, and constant reinvention.",
+          "tags": ["city", "food", "modern"]
+        },
+        {
+          "name": "Kyoto, Japan",
+          "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1200&q=85",
+          "description": "Ancient temples, contemplative gardens, and traditional streets framed by forested hills.",
+          "tags": ["temple", "history", "culture"]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Brazil",
+      "cities": [
+        {
+          "name": "Rio de Janeiro, Brazil",
+          "imageUrl": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&w=1200&q=85",
+          "description": "Mountain peaks, famous beaches, samba rhythms, and unforgettable views around every curve.",
+          "tags": ["city", "beach", "music"]
+        },
+        {
+          "name": "São Paulo, Brazil",
+          "imageUrl": "https://images.unsplash.com/photo-1543059080-f9b1272213d5?auto=format&fit=crop&w=1200&q=85",
+          "description": "A bold, cosmopolitan metropolis celebrated for contemporary art, design, and global cuisine.",
+          "tags": ["city", "art", "food"]
+        }
+      ]
+    }
+  ],
+  "temples": [
+    {
+      "id": 1,
+      "name": "Angkor Wat, Cambodia",
+      "imageUrl": "https://images.unsplash.com/photo-1563492065599-3520f775eeed?auto=format&fit=crop&w=1200&q=85",
+      "description": "A monumental Khmer temple complex whose towers rise above jungle and mirror-like pools.",
+      "tags": ["temple", "history", "architecture"]
+    },
+    {
+      "id": 2,
+      "name": "Taj Mahal, India",
+      "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1200&q=85",
+      "description": "An exquisite marble monument transformed throughout the day by Agra's changing light.",
+      "tags": ["temple", "monument", "architecture"]
+    },
+    {
+      "id": 3,
+      "name": "Wat Arun, Thailand",
+      "imageUrl": "https://images.unsplash.com/photo-1562602833-0f4ab2fc46e3?auto=format&fit=crop&w=1200&q=85",
+      "description": "Bangkok's riverside Temple of Dawn, covered in intricate porcelain and glowing at sunset.",
+      "tags": ["temple", "river", "culture"]
+    }
+  ],
+  "beaches": [
+    {
+      "id": 1,
+      "name": "Bora Bora, French Polynesia",
+      "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=85",
+      "description": "A luminous South Pacific lagoon ringed by coral reefs and dramatic volcanic peaks.",
+      "tags": ["beach", "island", "relaxation"]
+    },
+    {
+      "id": 2,
+      "name": "Copacabana Beach, Brazil",
+      "imageUrl": "https://images.unsplash.com/photo-1516306580123-e6e52b1b7b5f?auto=format&fit=crop&w=1200&q=85",
+      "description": "Rio's legendary crescent of sand, animated by sport, music, and Atlantic energy.",
+      "tags": ["beach", "city", "music"]
+    },
+    {
+      "id": 3,
+      "name": "Navagio Beach, Greece",
+      "imageUrl": "https://images.unsplash.com/photo-1533104816931-20fa691ff6ca?auto=format&fit=crop&w=1200&q=85",
+      "description": "A secluded Ionian cove of vivid blue water enclosed by towering limestone cliffs.",
+      "tags": ["beach", "island", "nature"]
+    }
+  ]
+}
